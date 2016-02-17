@@ -4,16 +4,33 @@
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 70%;
     background: url(../img/fd.jpg) no-repeat center center scroll;
     -webkit-background-size: 25% auto;
     -moz-background-size: 25% auto;
     background-size: 25% auto;
     -o-background-size: 25% auto;
-
 }
+
+
+/* Social */
+
+.contact-btn-link {
+  width: 100%;
+  height: 5%;
+}
+
+
+/* Social */
+
+.social {
+  width: 100%;
+  height: 25%;
+}
+
+
 .social-icons {
-  vertical-align: bottom;
+  vertical-align: bottom;;
 }
 
 
@@ -77,6 +94,10 @@ a.social-daidalos-alt:focus {
 
 
 /* Custom Button Styles */
+
+.btn-header {
+    vertical-align: bottom;
+}
 
 .btn-daidalos-dark {
     border-radius: 0;
